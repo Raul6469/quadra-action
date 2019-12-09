@@ -4,7 +4,7 @@
   "description": "GitHub action for quadra",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js"
+    "start": "node ./src/index.js"
   },
   "author": "Raul6469 <raul6469@outlook.com>",
   "license": "MIT",
