@@ -1,0 +1,14 @@
+name: 'quadra'
+description: 'GitHub action for quadra'
+inputs:
+  token:
+    description: 'GitHub token to create commit checks'
+    required: true
+  version:
+    description: 'quadra version to use'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ token }}

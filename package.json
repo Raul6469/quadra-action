@@ -1,0 +1,19 @@
+{
+  "name": "quadra-action",
+  "version": "0.1.0",
+  "description": "GitHub action for quadra",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "Raul6469 <raul6469@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "1.2.0",
+    "@actions/github": "2.0.0",
+    "lodash": "4.17.15"
+  },
+  "devDependencies": {
+    "quadra": "0.1.2-rc.2"
+  }
+}
